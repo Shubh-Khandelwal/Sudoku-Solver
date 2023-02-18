@@ -8,13 +8,21 @@ body {
   background: #17223b;
 }
 
-button, h1 {
+button{
+	color: #e42c64;
 	margin-left: auto;
 	margin-right: auto;
 	text-align: center;
+	border-radius: 86px 84px 85px 85px;
+	-webkit-border-radius: 86px 84px 85px 85px;
+	-moz-border-radius: 86px 84px 85px 85px;
+	border: 5px solid #e42c64;
 }
 
 h1{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
 	color:#ffffff;
 }
 
