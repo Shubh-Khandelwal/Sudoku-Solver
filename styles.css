@@ -61,12 +61,21 @@ h1{
 }
 
 .sudoku-container .sudoku-input-error {
-	background: #ffc9d7;
+	background: rgba(246,0,37,.6);
 }
 .sudoku-container.valid-matrix {
-	border: 5px solid #7edb37;
+	border: 5px solid #009A31;
 }
 
 .sudoku-section-one {
 	background: #6b778d;
 }
+*{
+	outline: none;
+  }
+  .sudoku-section-one input {
+	color: #263859;
+  }
+  .sudoku-section-two input {
+	color: #6b778d;
+  }
