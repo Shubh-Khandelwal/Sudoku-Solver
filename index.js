@@ -1,10 +1,14 @@
-/**
- * A Javascript implementation of a Sudoku game, including a
- * backtracking algorithm solver. For example usage see the
- * attached index.html demo.
- *
- * @author Moriel Schottlender
- */
+// Immediately-invoked function expression
+(function() {
+    // Load the script
+    const script = document.createElement("script");
+    script.src = 'https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js';
+    script.type = 'text/javascript';
+    script.addEventListener('load', () => {
+      console.log(`jQuery ${$.fn.jquery} has been loaded successfully!`);
+    });
+    document.head.appendChild(script);
+  })();
 var Sudoku = ( function ( $ ){
 	var _instance, _game,
 		/**
